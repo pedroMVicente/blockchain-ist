@@ -1,0 +1,76 @@
+syntax = "proto3";
+
+package pt.tecnico.blockchainist.contract;
+
+// The following option causes top-level messages, enums, and services to be
+// defined at the package level, rather than inside an outer class named after
+// the .proto file.
+option java_multiple_files = true;
+
+message CreateWalletRequest {
+  uint64 request_id = 1;
+  string userId = 2;
+  string walletId = 3;
+}
+
+message SignedCreateWalletRequest {
+  CreateWalletRequest request = 1;
+  bytes signature = 2;
+}
+
+message DeleteWalletRequest {
+  uint64 request_id = 1;
+  string userId = 2;
+  string walletId = 3;
+}
+
+message SignedDeleteWalletRequest {
+  DeleteWalletRequest request = 1;
+  bytes signature = 2;
+}
+
+message TransferRequest {
+  uint64 request_id = 1;
+  string src_userId = 2;
+  string src_walletId = 3;
+  string dst_walletId = 4;
+  uint64 value = 5;
+}
+
+message SignedTransferRequest{
+  TransferRequest request = 1;
+  bytes signature = 2;
+}
+
+message Transaction {
+  oneof operation {
+    CreateWalletRequest create_wallet = 1;
+    DeleteWalletRequest delete_wallet = 2;
+    TransferRequest transfer = 3;
+  }
+}
+
+message SignedTransaction {
+  oneof operation {
+    SignedCreateWalletRequest create_wallet = 1;
+    SignedDeleteWalletRequest delete_wallet = 2;
+    SignedTransferRequest transfer = 3;
+  }
+}
+
+message Block {
+  int32 block_number = 1;
+  repeated SignedTransaction transactions = 2;
+}
+
+// Encryption bonus
+message EncryptedRequest{
+  bytes encrypted_payload = 1;
+  bytes iv = 2;
+  string user_id = 3;
+}
+
+message EncryptedResponse{
+  bytes encrypted_payload = 1;
+  bytes iv = 2;
+}

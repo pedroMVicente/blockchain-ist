@@ -1,0 +1,4 @@
+T Alice c4a c4b 30 0 0
+S c4a 0 0
+S c4b 0 0
+X

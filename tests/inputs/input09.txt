@@ -1,0 +1,5 @@
+E Alice cA 0 0
+S cA 0 0
+C Alice cA2 0 0
+S cA2 0 0
+X

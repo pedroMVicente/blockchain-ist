@@ -1,0 +1,21 @@
+C Alice xa2 0 0
+C David xb2 1 0
+T BC bc xa2 200 0 0
+P 2
+T BC bc xb2 100 0 0
+P 2
+T Alice xa2 xb2 80 0 0
+P 2
+T David xb2 xa2 40 1 0
+P 2
+S xa2 0 0
+S xa2 1 0
+S xb2 0 0
+S xb2 1 0
+T Alice xa2 bc 160 0 0
+P 2
+T David xb2 bc 140 1 0
+P 2
+E Alice xa2 0 0
+E David xb2 1 0
+X

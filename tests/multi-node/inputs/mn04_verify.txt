@@ -1,0 +1,19 @@
+S c4a 0 0
+S c4b 0 0
+S c4a 1 0
+S c4b 1 0
+S c4d 0 0
+S c4e 0 0
+S c4d 1 0
+S c4e 1 0
+T Alice c4a bc 70 0 0
+T Bob c4b bc 110 0 0
+P 2
+T David c4d bc 45 1 0
+T Emma c4e bc 55 1 0
+P 2
+E Alice c4a 0 0
+E Bob c4b 0 0
+E David c4d 1 0
+E Emma c4e 1 0
+X

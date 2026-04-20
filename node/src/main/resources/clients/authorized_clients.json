@@ -1,0 +1,42 @@
+[
+    {
+        "user_id": "BC",
+        "organization": "OrgA"
+    },
+    {
+        "user_id": "Alice",
+        "organization": "OrgA"
+    },
+    {
+        "user_id": "Bob",
+        "organization": "OrgA"
+    },
+    {
+        "user_id": "Charlie",
+        "organization": "OrgA"
+    },
+    {
+        "user_id": "David",
+        "organization": "OrgB"
+    },
+    {
+        "user_id": "Emma",
+        "organization": "OrgB"
+    },
+    {
+        "user_id": "Fred",
+        "organization": "OrgB"
+    },
+    {
+        "user_id": "Ginger",
+        "organization": "OrgC"
+    },
+    {
+        "user_id": "Henry",
+        "organization": "OrgC"
+    },
+    {
+        "user_id": "Iris",
+        "organization": "OrgC"
+    }
+]

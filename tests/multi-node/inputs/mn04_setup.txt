@@ -1,0 +1,11 @@
+C Alice c4a 0 0
+C Bob c4b 0 0
+C David c4d 1 0
+C Emma c4e 1 0
+T BC bc c4a 100 0 0
+T BC bc c4b 80 0 0
+P 2
+T BC bc c4d 60 0 0
+T BC bc c4e 40 0 0
+P 2
+X

@@ -1,0 +1,8 @@
+C Eve cE 0 0
+T BC bc cE 100 0 0
+T Eve cE cB 30 0 0
+T Eve cE cC 20 0 0
+S cE 0 0
+S cB 0 0
+S cC 0 0
+X

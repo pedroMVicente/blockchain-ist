@@ -1,0 +1,4 @@
+T Alice cA cB 5 0 0
+S cA 0 0
+S cB 0 0
+X

@@ -1,0 +1,4 @@
+T BC bc cA 10 0 0
+T BC bc cB 20 0 0
+T BC bc cC 15 0 0
+X

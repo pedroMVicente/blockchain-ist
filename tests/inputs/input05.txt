@@ -1,0 +1,9 @@
+C Alice ca 0 0
+C Bob cb 0 0
+C Tobi cc 0 0
+C Pinguim cd 0 0
+E Alice ca 0 0
+E Bob cb 0 0
+E Tobi cc 0 0
+E Pinguim cd 0 0
+X

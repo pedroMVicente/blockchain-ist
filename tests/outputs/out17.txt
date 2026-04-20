@@ -1,0 +1,243 @@
+ClientMain
+
+> OK 1
+create_wallet {
+  userId: "Alice"
+  walletId: "cA"
+}
+
+delete_wallet {
+  userId: "Alice"
+  walletId: "cA"
+}
+
+create_wallet {
+  userId: "Alice"
+  walletId: "cA"
+}
+
+create_wallet {
+  userId: "Bob"
+  walletId: "cB"
+}
+
+delete_wallet {
+  userId: "Alice"
+  walletId: "cA"
+}
+
+delete_wallet {
+  userId: "Bob"
+  walletId: "cB"
+}
+
+create_wallet {
+  userId: "Alice"
+  walletId: "cA"
+}
+
+create_wallet {
+  userId: "Bob"
+  walletId: "cB"
+}
+
+transfer {
+  src_userId: "BC"
+  src_walletId: "bc"
+  dst_walletId: "cA"
+  value: 10
+}
+
+transfer {
+  src_userId: "Alice"
+  src_walletId: "cA"
+  dst_walletId: "cB"
+  value: 5
+}
+
+transfer {
+  src_userId: "Alice"
+  src_walletId: "cA"
+  dst_walletId: "bc"
+  value: 5
+}
+
+transfer {
+  src_userId: "Bob"
+  src_walletId: "cB"
+  dst_walletId: "bc"
+  value: 5
+}
+
+delete_wallet {
+  userId: "Alice"
+  walletId: "cA"
+}
+
+delete_wallet {
+  userId: "Bob"
+  walletId: "cB"
+}
+
+create_wallet {
+  userId: "Alice"
+  walletId: "cA"
+}
+
+transfer {
+  src_userId: "Alice"
+  src_walletId: "cA"
+  dst_walletId: "bc"
+  value: 5
+}
+
+delete_wallet {
+  userId: "Alice"
+  walletId: "cA"
+}
+
+create_wallet {
+  userId: "Alice"
+  walletId: "ca"
+}
+
+create_wallet {
+  userId: "Bob"
+  walletId: "cb"
+}
+
+create_wallet {
+  userId: "Tobi"
+  walletId: "cc"
+}
+
+create_wallet {
+  userId: "Pinguim"
+  walletId: "cd"
+}
+
+delete_wallet {
+  userId: "Alice"
+  walletId: "ca"
+}
+
+delete_wallet {
+  userId: "Bob"
+  walletId: "cb"
+}
+
+delete_wallet {
+  userId: "Tobi"
+  walletId: "cc"
+}
+
+delete_wallet {
+  userId: "Pinguim"
+  walletId: "cd"
+}
+
+create_wallet {
+  userId: "A"
+  walletId: "ca"
+}
+
+create_wallet {
+  userId: "A"
+  walletId: "ca"
+}
+
+create_wallet {
+  userId: "Alice"
+  walletId: "cA"
+}
+
+create_wallet {
+  userId: "Bob"
+  walletId: "cB"
+}
+
+create_wallet {
+  userId: "Charlie"
+  walletId: "cC"
+}
+
+delete_wallet {
+  userId: "Alice"
+  walletId: "cA"
+}
+
+create_wallet {
+  userId: "Alice"
+  walletId: "cA2"
+}
+
+transfer {
+  src_userId: "BC"
+  src_walletId: "bc"
+  dst_walletId: "cA"
+  value: 10
+}
+
+transfer {
+  src_userId: "BC"
+  src_walletId: "bc"
+  dst_walletId: "cB"
+  value: 20
+}
+
+transfer {
+  src_userId: "BC"
+  src_walletId: "bc"
+  dst_walletId: "cC"
+  value: 15
+}
+
+transfer {
+  src_userId: "Alice"
+  src_walletId: "cA"
+  dst_walletId: "cB"
+  value: 5
+}
+
+transfer {
+  src_userId: "Alice"
+  src_walletId: "cA"
+  dst_walletId: "cB"
+  value: 999
+}
+
+create_wallet {
+  userId: "Eve"
+  walletId: "cE"
+}
+
+transfer {
+  src_userId: "BC"
+  src_walletId: "bc"
+  dst_walletId: "cE"
+  value: 100
+}
+
+transfer {
+  src_userId: "Eve"
+  src_walletId: "cE"
+  dst_walletId: "cB"
+  value: 30
+}
+
+transfer {
+  src_userId: "Eve"
+  src_walletId: "cE"
+  dst_walletId: "cC"
+  value: 20
+}
+
+transfer {
+  src_userId: "BC"
+  src_walletId: "bc"
+  dst_walletId: "cB"
+  value: 50
+}
+
+
+> 
