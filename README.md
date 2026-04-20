@@ -111,4 +111,3 @@ Default values are defined inside of the root `pom.xml` files.
 |_|_| |_|_|            |_|_| |_|_|            |_|_| |_|_|
 
 ```
-# blockchain-ist
