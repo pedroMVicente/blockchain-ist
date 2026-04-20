@@ -8,11 +8,11 @@ Distributed Systems Project 2026
 
 ### Team Members
 
-| Number | Name              | User                             | Email                               |
-|--------|-------------------|----------------------------------|-------------------------------------|
-| 106823  | Guilherme Silva | <https://github.com/S1gn3rs>   | <mailto:guilherme.d.silva@tecnico.ulisboa.pt>   |
-| 109247  | Ema Ferrão       | <https://github.com/EmaFerrao>     | <mailto:emassferrao@tecnico.ulisboa.pt>     |
-| 109852  | Pedro Vicente     | <https://github.com/pedroMVicente> | <mailto:pedro.costa.vicente@tecnico.ulisboa.pt> |
+| Name              | User                               | Email                                           |
+|-------------------|------------------------------------|-------------------------------------------------|
+| Guilherme Silva   | <https://github.com/S1gn3rs>       | <mailto:guilherme.d.silva@tecnico.ulisboa.pt>   |
+| Ema Ferrão        | <https://github.com/EmaFerrao>     | <mailto:emassferrao@tecnico.ulisboa.pt>         |
+| Pedro Vicente     | <https://github.com/pedroMVicente> | <mailto:pedro.costa.vicente@tecnico.ulisboa.pt> |
 
 ## Getting Started
 
